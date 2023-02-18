@@ -40,7 +40,7 @@ h1 {
     top: 30px;
 }
 
-.container p, .container .form, #submit {
+.container p, .container .form, #calculate {
     font-size: 1.05em;
 }
 
@@ -58,8 +58,9 @@ h1 {
                 inset -3px -3px 3px #ffffff75;
 }
 
-#submit {
+#calculate {
     position: absolute;
+    cursor: pointer;
     bottom: 30px;
     width: 70%;
     height: 40px;
@@ -69,7 +70,7 @@ h1 {
     border-radius: 30px;
 }
 
-#submit:hover {
+#calculate:hover {
     background-color: var(--text);
     color: var(--primary);
 }
