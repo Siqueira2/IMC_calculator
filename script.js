@@ -15,9 +15,14 @@ function calculate() {
     return imc
 }
 
+function message(name, imc) {
+    
+}
+
 //Events
 calc_btn.addEventListener('click', () => {
     let imc = calculate()
+
     if (imc <= 24.9 && imc > 18.5) {
         console.log('Peso normal')
     } else if (imc <= 18.5) {
